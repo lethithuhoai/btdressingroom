@@ -55,9 +55,9 @@
   position: absolute;
   top: 12%;
   left: 22%;
-  z-index: 1;
-  background-size: cover!important;
-  background-position: center!important;
+  z-index: 4;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .bikinibottom {
@@ -67,9 +67,9 @@
   position: absolute;
   top: 12%;
   left: 22%;
-  z-index: 1;
-  background-size: cover!important;
-  background-position: center!important;
+  z-index: 2;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .model {
@@ -90,8 +90,8 @@
   right: -3.5%;
   transform: scale(0.5);
   z-index: 4;
-  background-size: cover!important;
-  background-position: center!important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .necklace {
@@ -101,9 +101,9 @@
   bottom: -40%;
   right: -3.5%;
   transform: scale(0.5);
-  z-index: 4;
-  background-size: cover!important;
-  background-position: center!important;
+  z-index: 12;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .hairstyle {
@@ -113,9 +113,9 @@
   top: -69%;
   right: -75%;
   transform: scale(0.15);
-  z-index: 4;
-  background-size: cover!important;
-  background-position: center!important;
+  z-index: 10;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .feet {
@@ -127,8 +127,8 @@
   right: -3.5%;
   transform: scale(0.5);
   z-index: 1;
-  background-size: cover!important;
-  background-position: center!important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .background {
@@ -142,8 +142,8 @@
   right: -50%;
   transform: scale(0.5);
   z-index: -1;
-  background-size: cover!important;
-  background-position: center!important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 /* END MODEL */
@@ -173,11 +173,17 @@ hr {
   padding-top: 30px;
 }
 
-.tab-content{
+.tab-content {
   position: relative;
 }
 
-.tab-content #topclothes,.tab-content #botclothes,.tab-content #shoes,.tab-content #handbags,.tab-content #necklaces,.tab-content #hairstyle,.tab-content #background{
+.tab-content #topclothes,
+.tab-content #botclothes,
+.tab-content #shoes,
+.tab-content #handbags,
+.tab-content #necklaces,
+.tab-content #hairstyle,
+.tab-content #background {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -187,14 +193,13 @@ hr {
   left: 0;
 }
 
-.tab-content  .card{
+.tab-content .card {
   width: 200px;
   height: 300px;
-  
 }
-.tab-content  .card .card-body{
+.tab-content .card .card-body {
   text-align: center;
 }
-.tab-content .card h5{
+.tab-content .card h5 {
   font-size: 15px;
 }

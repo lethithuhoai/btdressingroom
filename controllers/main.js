@@ -64,6 +64,7 @@ const choseItem = (id) => {
   } else if (item[0].type == "botclothes") {
     getElement(".bikinibottom").style.background =
       "url(" + item[0].imgSrc_png + ")";
+    getElement(".bikinibottom").style.zIndex = 5;
   } else if (item[0].type == "shoes") {
     getElement(".feet").style.background = "url(" + item[0].imgSrc_png + ")";
   } else if (item[0].type == "handbags") {
@@ -72,7 +73,6 @@ const choseItem = (id) => {
     getElement(".necklace").style.background =
       "url(" + item[0].imgSrc_png + ")";
   } else {
-    console.log(item[0].type);
     getElement(`.${item[0].type}`).style.background =
       "url(" + item[0].imgSrc_png + ")";
   }
